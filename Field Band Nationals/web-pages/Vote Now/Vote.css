@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #ff7700;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.header img {
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.nav-bar {
+    background-color: #ff9933;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav-bar a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.nav-bar a:hover {
+    background-color: #ff7700;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.sectionBlockLayout {
+    margin-bottom: 20px;
+}
+
+.columnBlockLayout h3 {
+    margin: 15px 0;
+    color: #333;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-4 {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+
+.col-md-12 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.col-md-12 h1, h4 {
+    margin: 0;
+    color: #333;
+}
+
+.sectionBlockLayout img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.button1 {
+    background-color: #ff9933;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button1:hover {
+    background-color: #ff7700;
+}
+
+.footer {
+    background-color: #ff7700;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+    max-width: 400px;
+    margin: auto;
+}
+
+.close {
+    color: #ff7700;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #ff9933;
+}
+

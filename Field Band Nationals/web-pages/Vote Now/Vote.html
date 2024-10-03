@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vote</title>
+    <link rel="stylesheet" href="Vote.css">
+</head>
+<body>
+
+    <!-- Header with Logo and Company Name -->
+    <div class="header">
+        <img src="/Images/companylogo.jpg" alt="Company Logo">
+        <h1>Field Band Foundation</h1>
+    </div>
+
+    <!-- Navigation Bar -->
+    <div class="nav-bar">
+        <a href="/web-pages/Home/Home.html">Home</a>
+        <a href="/web-pages/Teams/Teams.html">Teams</a>
+        <a href="/web-pages/Vote Now/Vote.html">Vote</a>
+        <a href="/web-pages/Results/Results.html">Results</a>
+    </div>
+
+    <!-- Main Section -->
+    <div class="row sectionBlockLayout" style="padding: 8px; margin: 0px; display: flex; flex-wrap: wrap; min-height: auto;">
+        <div class="container">
+            <div class="col-md-12 columnBlockLayout" style="min-width: 250px; flex-grow: 1; display: flex; flex-direction: column; margin: 30px 0px; padding: 30px;">
+                <h1>Vote for Your Favorite Team</h1>
+                <p>Your vote matters!</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Teams Section -->
+    <div class="row sectionBlockLayout" style="padding: 8px; margin: 0px; display: flex; flex-wrap: wrap;">
+        <div class="container">
+            <!-- Team 1 -->
+            <div class="col-md-4 columnBlockLayout">
+                <img src="/Images/Alexandra.jpg" alt="Alexandra">
+                <h3>Alexandra</h3>
+                <button class="button1" onclick="vote(1)">Vote for Alexandra</button>
+            </div>
+            <!-- Team 2 -->
+            <div class="col-md-4 columnBlockLayout">
+                <img src="/Images/Birchleigh.jpg" alt="Birchleigh">
+                <h3>Birchleigh</h3>
+                <button class="button1" onclick="vote(2)">Vote for Birchleigh</button>
+            </div>
+            <!-- Team 3 -->
+            <div class="col-md-4 columnBlockLayout">
+                <img src="/Images/Cape Whalers.jpg" alt="Cape Whalers">
+                <h3>Cape Whalers</h3>
+                <button class="button1" onclick="vote(3)">Vote for Cape Whalers</button>
+            </div>
+            <!-- Team 4 -->
+            <div class="col-md-4 columnBlockLayout">
+                <img src="/Images/Danielskuil.jpg" alt="Danielskuil">
+                <h3>Danielskuil</h3>
+                <button class="button1" onclick="vote(4)">Vote for Danielskuil</button>
+            </div>
+            <!-- Team 5 -->
+            <div class="col-md-4 columnBlockLayout">
+                <img src="/Images/Plett Pioneers.jpg" alt="Plett Pioneers">
+                <h3>Plett Pioneers</h3>
+                <button class="button1" onclick="vote(5)">Vote for Plett Pioneers</button>
+            </div>
+            <!-- Team 6 -->
+            <div class="col-md-4 columnBlockLayout">
+                <img src="/Images/Setlabotjha.jpg" alt="Setlabotjha">
+                <h3>Setlabotjha</h3>
+                <button class="button1" onclick="vote(6)">Vote for Setlabotjha</button>
+            </div>
+            <!-- Team 7 -->
+            <div class="col-md-4 columnBlockLayout">
+                <img src="/Images/Soweto.jpg" alt="Soweto">
+                <h3>Soweto</h3>
+                <button class="button1" onclick="vote(7)">Vote for Soweto</button>
+            </div>
+            <!-- Team 8 -->
+            <div class="col-md-4 columnBlockLayout">
+                <img src="/Images/Springs.jpg" alt="Springs">
+                <h3>Springs</h3>
+                <button class="button1" onclick="vote(8)">Vote for Springs</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Section -->
+    <div id="myModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <p id="successMessage"></p>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <p>&copy; 2024 Peoples Choice Voting App | Powered by Innovatio Systems ©</p>
+    </div>
+
+    <script src="Vote.js"></script>
+
+</body>
+</html>
+
